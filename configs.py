@@ -7,9 +7,9 @@ import os
 class Config(object):
     API_ID = int(os.getenv("API_ID", "26936024"))
     API_HASH = os.getenv("API_HASH", "5b44fda5c2576ee1999bf3af8288e4e2")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "6564459407:AAEITu79WguhMEUoW9EWuP55eJ-_VRj2qOU")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "String")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "6386915529:AAEs_U9gUnbzOm_m1JyQMavgj4QzCDwvnM8")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "LovelyAutoMovies_Bot")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOHgBu48D37Zp5fR5w-g1uTQwINgqeTSpo8TbyVsdC9pXddjXuGfScRnDnXP-b-K6b3LllO1Z4EP7E_YeeFa8KyEu9Y73D-0Xw2XmyxkAfm_AV_UXSln1YSzJPRyEyDwjHitG96VkafmLn1aVSgD0ig1Rnp-8N3WirPvEBmkP4SSesmmXXh6mXs_COz471iUAg532-dFW56Qq19k8gJ-IaeeEHt3xud6NB-uglqLHCo1EaGqz7-oRx7s5W3zwHGBOdF5yfxV34u9KjyQz460-rOslSnNLSGwbixztOJS3BOvApjrZoNGzdWRF7DHx4pRLAZ_kF112bAaQmrNy2N8C6h4SnJ0=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001558716347")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "cynitemdiskbot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "1883570185"))
