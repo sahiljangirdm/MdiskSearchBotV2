@@ -5,16 +5,17 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "26936024"))
-    API_HASH = os.getenv("API_HASH", "5b44fda5c2576ee1999bf3af8288e4e2")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "6386915529:AAEs_U9gUnbzOm_m1JyQMavgj4QzCDwvnM8")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "LovelyAutoMovies_Bot")
+    API_ID = int(os.getenv("API_ID", "21808158"))
+    API_HASH = os.getenv("API_HASH", "fcfb27ddbdb238a0a180826059ab6cd2")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "6596431735:AAEfMH2zv971Oar7g3DcE2yxJ5EoBpZ8DTk
+")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "PopIndiaxBot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOHgBu48D37Zp5fR5w-g1uTQwINgqeTSpo8TbyVsdC9pXddjXuGfScRnDnXP-b-K6b3LllO1Z4EP7E_YeeFa8KyEu9Y73D-0Xw2XmyxkAfm_AV_UXSln1YSzJPRyEyDwjHitG96VkafmLn1aVSgD0ig1Rnp-8N3WirPvEBmkP4SSesmmXXh6mXs_COz471iUAg532-dFW56Qq19k8gJ-IaeeEHt3xud6NB-uglqLHCo1EaGqz7-oRx7s5W3zwHGBOdF5yfxV34u9KjyQz460-rOslSnNLSGwbixztOJS3BOvApjrZoNGzdWRF7DHx4pRLAZ_kF112bAaQmrNy2N8C6h4SnJ0=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001558716347")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "cynitemdiskbot")
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "PopIndiaxBot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "1883570185"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "cyniteSupport")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "cynitebackup")
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Sahil Jangra")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "sjlonelyauthchannel")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
@@ -29,9 +30,9 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001249072794")
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001945574356")
     DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://postbot:postbot@cluster0.ouwne8q.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001796458234"))
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001977163469"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "cynitebackup")
